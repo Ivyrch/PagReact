@@ -21,7 +21,7 @@ const Main = () => {
         
           <section style={{direction: "flex"}}>
         <h3 className={styles.frase2}> We are Leader in Measure Tapes</h3>
-        <p style={{color: "white", width: "190px", marginLeft: "60px", textAlign: "start"}}> The are 5x the circumference of planet earth in metric tapes.</p>
+        <p style={{color: "white", width: "250px", marginLeft: "120px", marginTop: "30px", textAlign: "start",fontSize: "20px"}}> The are 5x the circumference of planet earth in metric tapes.</p>
         </section>
         <img src={fita2} className={styles.img2}/>
         
