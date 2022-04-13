@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.principal {
+  background-color: rgba(233, 233, 233, 1);
+  display: flex;
+  
+}
+.frase1 {
+  color: rgba(113, 101, 101, 1);
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 42.2px;
+  margin-left: 40px;
+  margin-top: 150px;
+  width: 348px;
+  height: 192px;
+  left: 231px;
+  top: 425px;
+}
+
+img {
+  width: 380px;
+  height: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+
+.principal2 { 
+  background-color:  rgba(80, 111, 169, 1);
+  display: flex;
+ 
+}
+
+
+.img2 {
+  width: 400px;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: 23px;
+  
+  
+}
+
+.frase2 { 
+  
+    color: rgb(255, 255, 255);
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 40.2px;
+    width: 348px;
+    left: 231px;
+    margin-top: 100px;
+    
+   
+  
+}
+
+@media screen and (max-width: 600px) {
+
+  .frase1 {
+    width: 40%;
+    margin-left: 10px;
+  }
+
+  .frase2 { 
+    width: 60%;
+    margin-left: 10px;
+  }
+  .img {
+    width: 60%;
+    height: 50%;
+    margin-left: 30px;
+    
+
+  }
+  .img2 {
+    width: 50%;
+    height: 50%;
+    
+  }
+}
